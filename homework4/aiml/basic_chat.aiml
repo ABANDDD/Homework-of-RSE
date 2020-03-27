@@ -1,0 +1,26 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+    <category>
+        <pattern>WHO ARE YOU</pattern>
+        <template>
+            I am a dialog robot and I can speak
+        </template>
+    </category>
+    
+    <category>
+        <pattern>INTRODUCE YOURSELF</pattern>
+        <template>
+            I am created recently and I can answer simple questions.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE ARE YOU FROM</pattern>
+        <template>
+            I am from sichuan and the city chengdu
+        </template>
+    </category>
+    
+</aiml>
+

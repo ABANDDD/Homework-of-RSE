@@ -1,0 +1,4 @@
+<launch>
+  <param name="aiml_path" value="$(find rchomeedu_speech)/aiml" />
+  <node name="voice_server" pkg="rchomeedu_speech" type="voice_server.py" output="screen" />
+</launch>

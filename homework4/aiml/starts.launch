@@ -1,0 +1,9 @@
+<launch>
+  <param name="aiml_path" value="$(find rchomeedu_speech)/aiml" />
+  <node name="voice_server" pkg="rchomeedu_speech" type="voice_server.py" output="screen" />
+
+  <include file="$(find sound_play)/soundplay_node.launch"></include>
+  <node name="tts" pkg="rchomeedu_speech" type="tts.py" output="screen" />
+
+  <node name="voice_recognizer" pkg="rchomeedu_speech" type="voice_recognizer.py" output="screen" />
+</launch>
