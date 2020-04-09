@@ -1,0 +1,3 @@
+在这次作业中，未写launch文件，所有的节点均手动启动。
+作业中包含的节点主要有四个：usb_cam, face_detection, voice_recognize, voice synthesis.
+启动python 程序为getlocation，在得到对应的语音指令之后，会对face_detection返回的数据进行检测，当得到的位置信息满足要求时会跳转运行take photo.py，其余情况会给出语音，提示对象修正当前位置
